@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Blog Analytics`,
+    position: `Web Analytics Specialist`,
     description: `A blog about x.`,
     author: `@felipelullio`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
