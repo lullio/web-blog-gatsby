@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const IndexPage = () => (
+<>
   <Layout>
    <Seo title="Home" />
    <h1>My Blog</h1>
@@ -17,6 +18,7 @@ const IndexPage = () => (
     </li>
    </ul>
   </Layout>
+</>
 )
 
 /**
