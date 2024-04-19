@@ -26,8 +26,8 @@ export const ProfilePosition = styled.small`
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.4;
-
-
+  line-break: strict;
+  display: block;
 `
 
 export const ProfileDescription = styled.p`
