@@ -8,11 +8,15 @@ const IndexPage = () => (
 <>
   <Layout>
    <Seo title="Home" />
-   <PostItem />
-   <PostItem />
-   <PostItem />
-   <PostItem />
-   <PostItem />
+   <PostItem 
+    slug="/about/"
+    background="red"
+    category="Misc"
+    date="30 de julho de 2020"
+    timeToRead="5"
+    title="Diga não ok: tenha sua propria tool"
+    description="ok oka lorem "
+   />
    
   </Layout>
 </>
