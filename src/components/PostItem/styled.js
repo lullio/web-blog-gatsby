@@ -31,9 +31,9 @@ export const PostItemWrapper = styled.section`
 //${props => props.background ? props.background : "var(--highlight)"}
 export const PostItemTag = styled.div`
    align-items: center;
-   background: green;
+   background: ${props => props.background};
    border-radius: 50%;
-   color: #8899a6;
+   color: #fff;
    display: flex;
    font-size: 1.3rem;
    font-weight: 700;
