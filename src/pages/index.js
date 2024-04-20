@@ -9,6 +9,10 @@ const IndexPage = () => (
   <Layout>
    <Seo title="Home" />
    <PostItem />
+   <PostItem />
+   <PostItem />
+   <PostItem />
+   <PostItem />
    
   </Layout>
 </>
