@@ -26,10 +26,10 @@ exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
   return graphql(`
     {
-      allMarkdownRemark{
+      allMarkdownRemark(sort: {frontmatter: {date: DESC}}){
         edges {
           node {
-            fields {
+            fields{
               slug
             }
             frontmatter {
@@ -60,20 +60,21 @@ exports.createPages = ({ graphql, actions }) => {
         },
       })
     })
-    // const postsPerPage = 6
-    // const numPages = Math.ceil(posts.length / postsPerPage)
+    const postsPerPage = 2
+    // caso vc tenha 5 paginas ou 6, pode não dar um numero exato, e não existe 1 página e meia, meia página. Vamos arredondar sempre pro maior numero
+    const numPages = Math.ceil(posts.length / postsPerPage)
 
-    // Array.from({ length: numPages }).forEach((_, index) => {
-    //   createPage({
-    //     path: index === 0 ? `/` : `/page/${index + 1}`,
-    //     component: path.resolve(`./src/templates/blog-list.js`),
-    //     context: {
-    //       limit: postsPerPage,
-    //       skip: index * postsPerPage,
-    //       numPages,
-    //       currentPage: index + 1,
-    //     },
-    //   })
-    // })
+    Array.from({ length: numPages }).forEach((_, index) => {
+      createPage({
+        path: index === 0 ? `/` : `/page/${index + 1}`,
+        component: path.resolve(`./src/templates/blog-list.js`),
+        context: {
+          limit: postsPerPage,
+          skip: index * postsPerPage,
+          numPages,
+          currentPage: index + 1,
+        },
+      })
+    })
   })
 }    
