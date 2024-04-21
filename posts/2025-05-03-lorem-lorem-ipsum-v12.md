@@ -16,6 +16,7 @@ Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus ege
 a=3
 puts a
 ```
+
 ![Desert](../static/assets/img/lake.jpg)
 ## Fusce a metus eu
 

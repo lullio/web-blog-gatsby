@@ -35,7 +35,7 @@ body {
    background: #16202c;
 	line-height: 1;
    font-size: 100%;
-   font-family: -apple-FileSystem; BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+   font-family: -apple-System, -apple-FileSystem; BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 ol, ul {
 	list-style: none;

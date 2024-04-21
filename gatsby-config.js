@@ -56,6 +56,7 @@ module.exports = {
             },
           },
           `gatsby-remark-lazy-load`,
+          `gatsby-remark-prismjs`,
         ],
         // Enable JS for https://github.com/jonschlinkert/gray-matter#optionsengines (default: false)
         // It's not advised to set this to "true" and this option will likely be removed in the future
