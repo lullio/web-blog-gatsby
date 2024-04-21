@@ -16,7 +16,7 @@ Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus ege
 a=3
 puts a
 ```
-
+![Desert](../static/assets/img/lake.jpg)
 ## Fusce a metus eu
 
 Pellentesque `sed` sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.
