@@ -9,6 +9,15 @@ module.exports = {
   plugins: [
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-image`,
+    // needs to be the first to work with gatsby-remark-images
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `uploads`,
+        path: `${__dirname}/static/assets/img`,
+      },
+      
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -32,7 +41,22 @@ module.exports = {
         // GitHub Flavored Markdown mode (default: true)
         gfm: true,
         // Add your gatsby-remark-* plugins here
-        plugins: [],
+        plugins: [
+          {
+            resolve: "gatsby-remark-relative-images",
+            options: {
+              name: "uploads"
+            }
+          },
+          {
+            resolve: "gatsby-remark-images",
+            options: {
+              maxWidth: 960,
+              linkImagesToOriginal: false
+            },
+          },
+          `gatsby-remark-lazy-load`,
+        ],
         // Enable JS for https://github.com/jonschlinkert/gray-matter#optionsengines (default: false)
         // It's not advised to set this to "true" and this option will likely be removed in the future
         jsFrontmatterEngine: false,

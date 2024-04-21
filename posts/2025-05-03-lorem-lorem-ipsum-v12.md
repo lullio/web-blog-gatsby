@@ -1,5 +1,5 @@
 ---
-date: 2024-04-03 05:53:23
+date: 2025-04-03 05:53:23
 title: Lorem Lorem
 description: And i'm not sure about the universe
 category: JS
@@ -9,6 +9,8 @@ background: "#7AAB13"
 # Lorem ipsum
 
 Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, [adipiscing](http://google.com) eu pulvinar vel, sodales vitae dui. :thumbsup: :smile: :sparkler:
+
+![Desert](../static/assets/img/desert.jpg)
 
 ```javascript
 a=3
