@@ -60,7 +60,7 @@ exports.createPages = ({ graphql, actions }) => {
         },
       })
     })
-    const postsPerPage = 2
+    const postsPerPage = 10
     // caso vc tenha 5 paginas ou 6, pode não dar um numero exato, e não existe 1 página e meia, meia página. Vamos arredondar sempre pro maior numero
     const numPages = Math.ceil(posts.length / postsPerPage)
 
