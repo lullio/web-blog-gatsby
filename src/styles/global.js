@@ -4,6 +4,15 @@ import { createGlobalStyle } from "styled-components";
    v2.0 | 20110126
    License: none (public domain)
    RESET
+	body {
+	--borders: #38444d;
+	--texts: #8899a6;
+	--postColor: #fff;
+	--highlight: #1fa1f2;
+	--mediumBackground: #192734;
+	--white: #fff;
+	--black: #222;
+}
 */
 const GlobalStyles = createGlobalStyle`
 html, body, div, span, applet, object, iframe,
@@ -53,15 +62,7 @@ table {
 	border-spacing: 0;
 }
 
-body {
-	--borders: #38444d;
-	--texts: #8899a6;
-	--postColor: #fff;
-	--highlight: #1fa1f2;
-	--mediumBackground: #192734;
-	--white: #fff;
-	--black: #222;
-}
+
 body.dark {
 	--borders: #38444d;
 	--texts: #8899a6;
