@@ -10,6 +10,7 @@ const postQuery = `{
         }
         frontmatter {
           title
+          background
           category
           date_timestamp: date
           date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
@@ -35,7 +36,7 @@ const queries = [
   {
     query: postQuery,
     transformer: ({ data }) => flatten(data.posts.edges),
-    indexName: process.env.ALGOLIA_INDEX_NAME,
+    indexName: process.env.GATSBY_ALGOLIA_INDEX_NAME,
     settings,
   },
 ]

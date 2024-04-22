@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Felipe Lullio <felipelullio@gmail.com>",
   "dependencies": {
+    "algoliasearch": "^4.23.3",
     "babel-plugin-styled-components": "^2.1.4",
     "dotenv": "^16.4.5",
     "gatsby": "^5.13.3",
@@ -25,6 +26,7 @@
     "react": "^18.2.0",
     "react-disqus-comments": "^1.4.0",
     "react-dom": "^18.2.0",
+    "react-instantsearch-dom": "^6.40.4",
     "styled-components": "^6.1.8",
     "styled-icons": "^10.47.1"
   },
