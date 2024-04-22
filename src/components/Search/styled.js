@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const SearchWrapper = styled.section`
-  background: #16202c;
+  background: var(--background);
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -21,7 +21,7 @@ export const SearchWrapper = styled.section`
   }
 
   .ais-SearchBox {
-    padding-top: 6rem;
+    padding-top: 2.5rem;
 
   }
 
@@ -42,7 +42,7 @@ export const SearchWrapper = styled.section`
     }
 
     .ais-Hits-item {
-      background-color: #16202c;
+      background-color: var(--background);
     }
   }
 

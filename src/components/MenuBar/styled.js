@@ -48,8 +48,8 @@ export const MenuBarItem = styled.span`
       color: #e2e240;
     }
   }
-
+  
   &:hover {
-    color: var(--texts);
+    color: var(--highlight);
   }
 `

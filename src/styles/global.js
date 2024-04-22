@@ -41,7 +41,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-   background: #16202c;
+   //background: #16202c;
 	line-height: 1;
    font-size: 100%;
    font-family: -apple-system, -apple-FileSystem; BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;

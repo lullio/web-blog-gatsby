@@ -7,7 +7,7 @@ display: flex;
 text-decoration: none;
 
 body#grid & {
-  background-color: var(--texts);
+  background-color: var(--background);
 }
 
 &:hover {
