@@ -76,7 +76,7 @@ const MenuBar = ({ setIsMenuOpen, isMenuOpen }) => {
 
           <S.MenuBarExternalLink
             title="YouTube Videos"
-            to="https://www.youtube.com/WillianJustenCursos/?sub_confirmation=1"
+            href="https://www.youtube.com/WillianJustenCursos/?sub_confirmation=1"
             target="_blank"
             rel="noopener noreferrer"
           >

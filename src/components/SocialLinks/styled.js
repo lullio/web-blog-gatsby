@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import media from "styled-media-query"
-import { Link } from 'gatsby'
+// import { Link } from 'gatsby'
 
 export const SocialLinksWrapper = styled.nav`
   margin: 2rem auto;
@@ -29,7 +29,7 @@ export const SocialLinksItem = styled.li`
   `
   
 
-export const SocialLinksLink = styled(Link)`
+export const SocialLinksLink = styled.a`
   color: var(--texts);
   text-decoration: none;
   transition: color 0.5s;

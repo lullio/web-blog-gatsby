@@ -3,7 +3,7 @@ import * as S from './styled'
 
 const Course = ({ title, description, link }) => {
   return (
-    <S.CourseLink to={link}>
+    <S.CourseLink href={link}>
       <S.CourseWrapper>
         <S.CourseInfo>
           <S.CourseTitle>{title}</S.CourseTitle>

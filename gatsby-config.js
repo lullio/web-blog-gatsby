@@ -7,7 +7,7 @@ module.exports = {
     position: `Web Analytics Specialist`,
     description: `Blog sobre web analytics, programação, Linux e tecnologias.`,
     author: `@felipelullio`,
-    siteUrl: `https://joedoe.com`,
+    siteUrl: `https://blog.lullio.com.br`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,

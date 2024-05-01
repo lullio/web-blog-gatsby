@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import media from 'styled-media-query'
-import { Link } from 'gatsby'
+// import { Link } from 'gatsby'
 
 
 export const CourseWrapper = styled.section`
@@ -16,7 +16,7 @@ export const CourseWrapper = styled.section`
   `}
 `
 
-export const CourseLink = styled(Link)`
+export const CourseLink = styled.a`
   color: var(--texts);
   display: flex;
   text-decoration: none;

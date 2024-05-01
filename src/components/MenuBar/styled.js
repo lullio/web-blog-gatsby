@@ -63,7 +63,7 @@ export const MenuBarLink = styled(Link)`
   }
 `
 
-export const MenuBarExternalLink = styled(Link)`
+export const MenuBarExternalLink = styled.a`
   display: block;
 `
 
