@@ -5,9 +5,9 @@ module.exports = {
   siteMetadata: {
     title: `Felipe Lullio`,
     position: `Web Analytics Specialist`,
-    description: `A blog about x.`,
+    description: `Blog sobre web analytics, programação, Linux e tecnologias.`,
     author: `@felipelullio`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    siteUrl: `https://joedoe.com`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,

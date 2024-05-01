@@ -18,7 +18,7 @@ const Pagination = ({
      {!isFirst && (
        <Link
          to={prevPage}
-         cover
+         //cover
          direction="left"
         //bg={getThemeColor()}
          duration={0.6}
@@ -32,7 +32,7 @@ const Pagination = ({
      {!isLast && (
        <Link
          to={nextPage}
-         cover
+         //cover
          direction="right"
          //bg={getThemeColor()}
          duration={0.6}

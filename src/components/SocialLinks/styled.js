@@ -1,8 +1,14 @@
 import styled from "styled-components"
+import media from "styled-media-query"
 
 export const SocialLinksWrapper = styled.nav`
   margin: 2rem auto;
   width: 100%;
+
+  ${media.lessThan("large")`
+    order: 2;
+    margin: 0 0 1rem;
+  `}  
 
 `
 
@@ -13,7 +19,14 @@ export const SocialLinksList = styled.ul`
   list-style: none;
 `
 
-export const SocialLinksItem = styled.li``
+export const SocialLinksItem = styled.li`
+  font-size: 15px;
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 5px;
+  list-style: none;
+  `
+  
 
 export const SocialLinksLink = styled.a`
   color: var(--texts);
@@ -22,6 +35,7 @@ export const SocialLinksLink = styled.a`
 
   &:hover {
     color: var(--highlight);
+
   }
 `
 

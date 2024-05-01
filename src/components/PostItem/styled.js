@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import media from "styled-media-query"
 import { Link } from 'gatsby'
 
 export const PostItemLink = styled(Link)`
@@ -27,6 +28,12 @@ export const PostItemWrapper = styled.section`
    flex-direction: column;
    justify-content: center;
  }
+
+  ${media.lessThan("large")`
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 2rem 1rem;
+  `}
  `
 //${props => props.background ? props.background : "var(--highlight)"}
 // se ele não for esse background definimos um padrão
@@ -43,6 +50,39 @@ export const PostItemTag = styled.div`
    min-width: 90px;
    text-transform: uppercase;
 
+   ${media.lessThan("large")`
+    border-radius: 0;
+    font-size: 1.1rem;
+    min-height: auto;
+    min-width: auto;
+    padding: .2rem .5rem;
+    margin-bottom: .8rem;
+  `}  
+  &.is-js {
+    background: #d6ba32;
+    color: #000;
+  }
+
+  &.is-misc {
+    background: #47650b;
+  }
+
+  &.is-dev {
+    background: #61728f;
+  }
+
+  &.is-svg {
+    background: #7d669e;
+  }
+
+  &.is-css {
+    background: #24809e;
+  }
+
+  &.is-jekyll {
+    background: #b31917;
+  } 
+
    body#grid & {
       margin-bottom: 1.5rem;
    }
@@ -53,6 +93,9 @@ export const PostItemInfo = styled.div`
   flex-direction: column;
   margin-left: 1.5rem;
 
+  ${media.lessThan("large")`
+    margin: 0;
+  `}
 `
 
 export const PostItemDate = styled.time`

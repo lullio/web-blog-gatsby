@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Avatar from '../Avatar'
 import * as S from './styled'
 
-const Profile = () => {
+const Profile = ({ isMobileHeader }) => {
    const {
       site: {
          siteMetadata: { title, position, description },
@@ -22,7 +22,7 @@ const Profile = () => {
  }
 `)
    return (
-      <S.ProfileWrapper>
+      <S.ProfileWrapper $isMobileHeader={isMobileHeader}>
          <S.ProfileLink>
             <Avatar />
             <S.ProfileAuthor>

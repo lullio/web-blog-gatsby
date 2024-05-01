@@ -22,6 +22,7 @@ const Search = ({ algolia }) => {
           }}
         />
         <Hits hitComponent={Hit} />
+        <S.AlgoliaIcon />
       </InstantSearch>
     </S.SearchWrapper>
   )

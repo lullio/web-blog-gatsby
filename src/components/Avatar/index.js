@@ -16,7 +16,7 @@ const Avatar = () => {
  )
 
 
- return <S.AvatarWrapper image={avatarImage.childImageSharp.gatsbyImageData} />
+ return <S.AvatarWrapper image={avatarImage.childImageSharp.gatsbyImageData} alt="foto felipe lullio" />
 }
 
 export default Avatar

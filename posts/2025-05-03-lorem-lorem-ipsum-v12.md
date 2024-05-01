@@ -4,6 +4,7 @@ title: Lorem Lorem
 description: And i'm not sure about the universe
 category: JS
 background: "#7AAB13"
+image: "../static/assets/img/desert.jpg"
 ---
 
 # Lorem ipsum
