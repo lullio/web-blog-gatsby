@@ -23,7 +23,12 @@ const Profile = ({ isMobileHeader }) => {
 `)
    return (
       <S.ProfileWrapper $isMobileHeader={isMobileHeader}>
-         <S.ProfileLink>
+         <S.ProfileLink
+         to="/"
+         //cover
+         direction="left"
+         duration={0.6}
+         >
             <Avatar />
             <S.ProfileAuthor>
                {title}
