@@ -1,7 +1,7 @@
 ---
 date: 2025-04-03 05:53:23
-title: Lorem Lorem
-description: And i'm not sure about the universe
+title: Raquel meu amor
+description: Te amo vida!
 category: JS
 background: "#7AAB13"
 image: "../static/assets/img/desert.jpg"
