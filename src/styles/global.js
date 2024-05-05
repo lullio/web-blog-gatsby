@@ -98,5 +98,28 @@ body.dark {
 	--white: #fff;
 	--black: #222;
  }
+
+ /* ===================================
+    Scrollbar
+====================================== */
+
+::-webkit-scrollbar {
+width: 12px;
+}
+::-webkit-scrollbar-track {
+width: 12px;
+background: white;
+border-left: 0 solid white;
+border-right: 0 solid white;
+}
+::-webkit-scrollbar-thumb {
+// background: #6c63ff; #8ab9e2 #a1a7dc #b2b2b2 #aaafde #898a95 #838d9b #24309f #c0c2d6
+background: #a9abb7;
+width: 0;
+height: 28%;
+transition: .5s ease;
+cursor: pointer;
+}
+ 
 `
 export default GlobalStyles

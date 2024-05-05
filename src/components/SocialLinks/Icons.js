@@ -1,15 +1,21 @@
 import { Github } from "@styled-icons/boxicons-logos/Github"
-import { Twitter } from "@styled-icons/boxicons-logos/Twitter"
+import { Whatsapp } from "@styled-icons/boxicons-logos/Whatsapp"
+import { Linkedin } from "@styled-icons/boxicons-logos/Linkedin"
 import { Youtube } from "@styled-icons/boxicons-logos/Youtube"
-import { Unsplash } from "@styled-icons/boxicons-logos/Unsplash"
-import { Instagram } from "@styled-icons/boxicons-logos/Instagram"
+import { Skype } from "@styled-icons/boxicons-logos/Skype"
+import { Email } from "@styled-icons/evaicons-outline/EmailOutline"
+import { StackOverflow } from "@styled-icons/boxicons-logos/StackOverflow"
+import { Messenger } from "@styled-icons/boxicons-logos/Messenger"
 
 const Icons = {
   Github,
-  Twitter,
+  Whatsapp,
+  Linkedin,
   Youtube,
-  Unsplash,
-  Instagram,
+  Skype,
+  Email,
+  StackOverflow,
+  Messenger
 }
 
 export default Icons

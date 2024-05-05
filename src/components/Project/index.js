@@ -1,9 +1,9 @@
 import React from "react"
 import * as S from './styled'
 
-const Course = ({ title, description, link }) => {
+const Project = ({ title, description, link }) => {
   return (
-    <S.CourseLink href={link}>
+    <S.CourseLink href={link} target="_blank">
       <S.CourseWrapper>
         <S.CourseInfo>
           <S.CourseTitle>{title}</S.CourseTitle>
@@ -14,4 +14,4 @@ const Course = ({ title, description, link }) => {
   )
 }
 
-export default Course
+export default Project

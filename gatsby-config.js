@@ -5,7 +5,7 @@ module.exports = {
   siteMetadata: {
     title: `Felipe Lullio`,
     position: `Web Analytics Specialist`,
-    description: `Blog sobre web analytics, programação, Linux e tecnologias.`,
+    description: `Aprenda sobre o mundo analytics Google Analytics 4, Google Tag Manager, Google Looker Studio, Google Apps Script, PowerBI e muito mais. `,
     author: `@felipelullio`,
     siteUrl: `https://blog.lullio.com.br`,
   },
@@ -58,6 +58,98 @@ module.exports = {
               linkImagesToOriginal: false
             },
           },
+          {
+            resolve: `gatsby-remark-table-of-contents`,
+            options: {
+              exclude: "Table of Contents",
+              tight: false,
+              ordered: false,
+              fromHeading: 1,
+              toHeading: 6,
+              className: "table-of-contents"
+            },
+          },
+          {
+            resolve: "gatsby-plugin-google-tagmanager",
+            options: {
+              id: "GTM-WSVDN5KL",
+        
+              // Include GTM in development.
+              //
+              // Defaults to false meaning GTM will only be loaded in production.
+              includeInDevelopment: true,
+        
+              // datalayer to be set before GTM is loaded
+              // should be an object or a function that is executed in the browser
+              //
+              // Defaults to null
+              defaultDataLayer: { platform: "gatsby" },
+        
+              // Specify optional GTM environment details.
+              // gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_AUTH_STRING",
+              // gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_PREVIEW_NAME",
+              // dataLayerName: "YOUR_DATA_LAYER_NAME",
+        
+              // Name of the event that is triggered
+              // on every Gatsby route change.
+              //
+              // Defaults to gatsby-route-change
+              routeChangeEventName: "virtualPageView",
+              // Defaults to false
+              enableWebVitalsTracking: true,
+              // Defaults to https://www.googletagmanager.com
+              // selfHostedOrigin: "YOUR_SELF_HOSTED_ORIGIN",
+              // // Defaults to gtm.js
+              // selfHostedPath: "YOUR_SELF_HOSTED_PATH",
+            },
+          },
+          {
+            resolve: `gatsby-plugin-google-gtag`,
+            options: {
+              // You can add multiple tracking ids and a pageview event will be fired for all of them.
+              trackingIds: [
+                "G-G4WHWMNQ6V", // Google Analytics / GA
+                "G-G4WHWMNQ6V", // Google Ads / Adwords / AW
+                "G-G4WHWMNQ6V", // Marketing Platform advertising products (Display & Video 360, Search Ads 360, and Campaign Manager)
+              ],
+              // This object is used for configuration specific to this plugin
+              pluginConfig: {
+                // Puts tracking script in the head instead of the body
+                head: false,
+                // Setting this parameter is also optional
+                respectDNT: true,
+                // Avoids sending pageview hits from custom paths
+                exclude: ["/preview/**", "/do-not-track/me/too/"],
+                // Defaults to https://www.googletagmanager.com
+                // origin: "YOUR_SELF_HOSTED_ORIGIN",
+                // Delays processing pageview events on route update (in milliseconds)
+                delayOnRouteUpdate: 0,
+              },
+            },
+          },
+          // {
+          //   resolve: "gatsby-plugin-google-tagmanager-timeout",
+          //   options: {
+          //     id: "GTM-123456",
+        
+          //     // Include GTM in development.
+          //     // Defaults to false meaning GTM will only be loaded in production.
+          //     includeInDevelopment: true,
+          //     timeout: 0, // default value is 1000ms
+          //     // datalayer to be set before GTM is loaded
+          //     // should be an object or a function that is executed in the browser
+          //     // Defaults to null
+          //     defaultDataLayer: { platform: "gatsby" },
+        
+          //     // // Specify optional GTM environment details.
+          //     // gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_AUTH_STRING",
+          //     // gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_PREVIEW_NAME",
+          //     // dataLayerName: "YOUR_DATA_LAYER_NAME",
+          //     routeChangeEventName: "xxsos",
+          //   },
+          // },
+
+          `gatsby-remark-autolink-headers`,
           `gatsby-remark-lazy-load`,
           `gatsby-remark-prismjs`,
         ],
@@ -82,8 +174,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Felipe Lullio`,
-        short_name: `Felipe Lullio`,
+        name: `App Blog Analytics - Felipe Lullio`,
+        short_name: `App Analytics Nerd`,
         start_url: `/`,
         background_color: `#030518`,
         // This will impact how browsers show your PWA/website

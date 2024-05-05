@@ -7,8 +7,8 @@ import { Lightbulb as Light } from "@styled-icons/material-outlined/Lightbulb"
 import { Grid } from "@styled-icons/boxicons-solid/Grid"
 import { ThList as List } from "@styled-icons/typicons/ThList"
 import { Menu } from '@styled-icons/boxicons-regular/Menu'
-import { GraduationCap } from '@styled-icons/fa-solid/GraduationCap'
-import { Youtube } from '@styled-icons/boxicons-logos/Youtube'
+import { LaptopCode } from '@styled-icons/fa-solid/LaptopCode'
+// import { Youtube } from '@styled-icons/boxicons-logos/Youtube'
 
 import * as S from "./styled"
 
@@ -64,19 +64,19 @@ const MenuBar = ({ setIsMenuOpen, isMenuOpen }) => {
 
         <S.MenuBarGroupDesktop>
             <S.MenuBarLink
-              to="/cursos/"
+              to="/projetos/"
               activeClassName="active"
-              title="Ver cursos"
+              title="Ver projetos"
             >
               <S.MenuBarItem>
-                <GraduationCap />
+                <LaptopCode />
                 <S.MenuBarNotification />
               </S.MenuBarItem>
             </S.MenuBarLink>
-
-          <S.MenuBarExternalLink
+            
+          {/* <S.MenuBarExternalLink
             title="YouTube Videos"
-            href="https://www.youtube.com/WillianJustenCursos/?sub_confirmation=1"
+            href="https://www.youtube.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -84,7 +84,7 @@ const MenuBar = ({ setIsMenuOpen, isMenuOpen }) => {
               <Youtube />
               <S.MenuBarNotification />
             </S.MenuBarItem>
-          </S.MenuBarExternalLink>
+          </S.MenuBarExternalLink> */}
         </S.MenuBarGroupDesktop>
       </S.MenuBarGroup>
 

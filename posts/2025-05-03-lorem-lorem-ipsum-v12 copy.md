@@ -1,9 +1,9 @@
 ---
 date: 2025-04-03 05:53:23
-title: Raquel meu amor
+title: O que é o Google Tag Manager?
 description: Te amo vida!
-category: JS
-background: "#7AAB13"
+category: GTM
+background: "#4385f5"
 image: "../static/assets/img/desert.jpg"
 ---
 
