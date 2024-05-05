@@ -75,13 +75,20 @@ const AboutPage = () => (
         >
           Whatsapp
         </a>
-        {", "} ou alguma rede social.
+        {", "}
+        <a
+          href="https://teams.microsoft.com/l/chat/0/0?users=felipe@lullio.com.br"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Microsoft Teams
+        </a>
+        {" "} ou por alguma rede social abaixo.
       </p>
-      <div class="button-container">
+      {/* <div class="button-container">
         <div class="button1">BUTTON1</div>
         <div class="button2">BUTTON2</div>
-      </div>
-
+      </div> */}
       <SocialLinks hideStyle />
     </MainContent>
   </Layout>
