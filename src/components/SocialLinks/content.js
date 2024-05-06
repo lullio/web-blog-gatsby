@@ -15,10 +15,10 @@ const links = [
     label: "Linkedin",
     url: `https://www.linkedin.com/in/felipe-lullio/`,
   },
-  {
-    label: "Youtube",
-    url: `http://youtube.com.br/canaldoLULLINHOs2`,
-  },
+  // {
+  //   label: "Youtube",
+  //   url: `http://youtube.com.br/canaldoLULLINHOs2`,
+  // },
   {
     label: "Email",
     url: `mailto:felipelullio@gmail.com?cc=felipe@lullio.com&bcc=lulliofelipe@gmail.com&subject=Oi%20Vim%20pelo%20Blog&body=Podemos%20conversar`,

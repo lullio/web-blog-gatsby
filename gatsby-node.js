@@ -24,20 +24,21 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     const slug = createFilePath({
       node,
       getNode,
-      basePath: "pages",
+      basePath: "posts",
     })
 
     // Creates new query'able field with name of 'slug'
     createNodeField({
       node,
       name: "slug",
-      value: `/${slug.slice(12)}`,
+      value: `/posts/${slug.slice(12)}`,
     })
   }
 }
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
+  const blogPostTemplate = path.resolve(`src/templates/blog-post.js`)
   return graphql(`
     {
       allMarkdownRemark(sort: {frontmatter: {date: DESC}}){

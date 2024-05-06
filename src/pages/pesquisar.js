@@ -12,7 +12,7 @@ const algolia = {
 
 const SearchPage = () => (
   <Layout>
-    <Seo title="Search" />
+    <Seo title="Pesquisar posts" />
     <Search algolia={algolia} />
   </Layout>
 )

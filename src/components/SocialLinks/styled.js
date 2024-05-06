@@ -21,9 +21,9 @@ export const SocialLinksList = styled.ul`
 `
 
 export const SocialLinksItem = styled.li`
-  font-size: 15px;
+  font-size: 12px;
   display: inline-block;
-  margin-right: 5px;
+  // margin-right: 5px;
   margin-left: 5px;
   list-style: none;
   `

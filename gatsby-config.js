@@ -5,7 +5,7 @@ module.exports = {
   siteMetadata: {
     title: `Felipe Lullio`,
     position: `Web Analytics`,
-    description: `Aprenda sobre o mundo analytics Google Analytics 4, Google Tag Manager, Google Looker Studio, Google Apps Script, PowerBI e muito mais. `,
+    description: `Aprenda sobre Google Analytics 4, Google Tag Manager, Google Looker Studio, Google Apps Script, PowerBI e muito mais. `,
     author: `@felipelullio`,
     siteUrl: `https://blog.lullio.com.br`,
   },
@@ -148,7 +148,7 @@ module.exports = {
           //   },
           // },
 
-          `gatsby-remark-autolink-headers`,
+          // `gatsby-remark-autolink-headers`,
           `gatsby-remark-lazy-load`,
           `gatsby-remark-prismjs`,
         ],

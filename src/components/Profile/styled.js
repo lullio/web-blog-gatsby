@@ -12,7 +12,7 @@ export const ProfileWrapper = styled.section`
     display: ${props => (props.$isMobileHeader ? 'flex' : 'none')};
     background: var(--mediumBackground);
     border-bottom: 1px solid var(--borders);
-    padding: 0.9rem 0.8rem 0.7rem 0.8rem;
+    padding: 1rem;
     width: 100vw;
     position: fixed;
     z-index: 10;
@@ -35,24 +35,24 @@ export const ProfileLink = styled(Link)`
 `
 
 export const ProfileAuthor = styled.h1`
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   margin: 0.5rem auto 1.5rem;
 
   ${media.lessThan("large")`
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     margin: 0 0 0 10px;
   `}  
 `
 
 export const ProfilePosition = styled.small`
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 300;
   line-height: 1.4;
   line-break: strict;
   display: block;
 
   ${media.lessThan("large")`
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin-top: 0.2rem;
   `}  
 `

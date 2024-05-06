@@ -19,7 +19,7 @@ export const PostItemWrapper = styled.section`
    align-items: center;
   border-bottom: 1px solid var(--borders);
   display: flex;
-  padding: 2rem 3rem;
+  padding: 2rem 2rem;
   width: 100%;
 
   body#grid & {
