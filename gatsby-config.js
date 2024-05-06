@@ -175,16 +175,18 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `App Blog Analytics - Felipe Lullio`,
-        short_name: `App Analytics Nerd`,
+        short_name: `App Analytics Felipe Lullio`,
+        description: `Blog do Felipe Lullio, aprenda sobre o mundo de web analytics entendendo sobre as ferramentas Google, criação de relatórios, dashboards e análise de dados.`,
         start_url: `/`,
         background_color: `#030518`,
-        // This will impact how browsers show your PWA/website
-        // https://css-tricks.com/meta-theme-color-and-trickery/
-        // theme_color: `#030518`,
+        theme_color: `#030518`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        // This will impact how browsers show your PWA/website
+        // https://css-tricks.com/meta-theme-color-and-trickery/
       },
     },
-    `gatsby-plugin-sitemap`
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-offline`,
   ],
 }
