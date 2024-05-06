@@ -109,10 +109,10 @@ export const MenuBarItem = styled.span`
   `}
 
   ${media.lessThan("large")`
-    height: 3.2rem;
+    height: 2.1rem;
     padding: .9rem;
     position: relative;
-    width: 2.8rem;
+    width: 2.1rem;
   `}
 `
 
