@@ -52,13 +52,13 @@ export const ProfilePosition = styled.small`
   display: block;
 
   ${media.lessThan("large")`
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin-top: 0.2rem;
   `}  
 `
 
 export const ProfileDescription = styled.p`
-  font-size: 1.12rem;
+  font-size: 1rem;
   font-weight: 300;
   line-height: 1.4;
 
