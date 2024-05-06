@@ -4,7 +4,7 @@ const queries = require('./src/utils/algolia_queries')
 module.exports = {
   siteMetadata: {
     title: `Felipe Lullio`,
-    position: `Web Analytics Specialist`,
+    position: `Web Analytics`,
     description: `Aprenda sobre o mundo analytics Google Analytics 4, Google Tag Manager, Google Looker Studio, Google Apps Script, PowerBI e muito mais. `,
     author: `@felipelullio`,
     siteUrl: `https://blog.lullio.com.br`,
@@ -109,8 +109,7 @@ module.exports = {
               // You can add multiple tracking ids and a pageview event will be fired for all of them.
               trackingIds: [
                 "G-G4WHWMNQ6V", // Google Analytics / GA
-                "G-G4WHWMNQ6V", // Google Ads / Adwords / AW
-                "G-G4WHWMNQ6V", // Marketing Platform advertising products (Display & Video 360, Search Ads 360, and Campaign Manager)
+                "G-SQBZ6TX9J7", // Google Ads / Adwords / AW // Marketing Platform advertising products (Display & Video 360, Search Ads 360, and Campaign Manager)
               ],
               // This object is used for configuration specific to this plugin
               pluginConfig: {
