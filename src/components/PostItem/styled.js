@@ -111,6 +111,7 @@ export const PostItemTitle = styled.h1`
     line-height: 1.1;
     margin: 0.8rem 0;
   }
+
 `
 
 export const PostItemDescription = styled.p`

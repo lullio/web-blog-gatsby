@@ -20,7 +20,7 @@ export const PostTitle = styled.h1`
   margin: 1rem auto;
 
   ${media.lessThan("large")`
-    font-size: 2.8rem;
+    font-size: 2.2rem;
     line-height: 1.1;
     padding: 0 1rem;
   `}
@@ -32,7 +32,7 @@ export const PostDescription = styled.h2`
   padding: 0 1.4rem;
   
   ${media.lessThan("large")`
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     line-height: 1.3;
     padding: 0 1rem;
   `}  

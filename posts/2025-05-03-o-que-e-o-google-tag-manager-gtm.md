@@ -108,7 +108,3 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 ## Conclusão
 O Google Tag Manager é gerenciador de tags e uma ferramenta essencial para qualquer profissional de marketing digital e qualquer empresa que deseja gerenciar e otimizar o rastreamento de seu site ou aplicativo. Com sua interface amigável, recursos poderosos e flexibilidade, o GTM atua como um facilitador, permitindo que você instale, remova, gerencie e organize todo o rastreamento, tags e scripts sem a necessidade de um programador/desenvolvedor.
-
-Veja a tag do Google:
-
-Repare que é um pequeno trecho de código javascript que você deve inserir no seu site para que as ferramentas do Google, como o Google Analytics 4 possam funcionar e comecem a rastrear e coletar os dados de quem visita o seu site ou aplicativo.
