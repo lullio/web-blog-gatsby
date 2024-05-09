@@ -11,9 +11,6 @@ image: "../static/assets/img/desert.jpg"
 
 O Google analytics 4 (conhecido como GA4, a versão mais nova do Universal Analytics), é uma ferramenta de análise de dados poderosa usada para monitorar o desempenho de sites ou aplicativos e coletar dados dos visitantes. É uma ferramenta extremamente útil e "gratuita" da Google, que coleta os dados das pessoas que acessaram o seu site ou aplicativo e as apresenta em relatórios fáceis de compreender. 
 
-**Principal objetivo:** 
-Rastrear dados, armazená-los e gerar relatórios sobre o seu site ou aplicativo.
-
 ### Com o GA4, você pode responder perguntas como:
 
 #### Para qualquer site
@@ -48,7 +45,7 @@ Rastrear dados, armazená-los e gerar relatórios sobre o seu site ou aplicativo
 
 ### O GA4 Coleta Dados Automaticamente
 
-O Google analytics foi projetado para coletar automaticamente detalhes sobre as ações mais importantes que as pessoas realizam em seu site ou aplicativo. Uma vez instalado, ele coleta automaticamente dados como: 
+O Google analytics 4 foi projetado para coletar automaticamente detalhes sobre as ações mais importantes que as pessoas realizam em seu site ou aplicativo. Uma vez instalado, ele coleta automaticamente dados como: 
 - Visualizações de página
 - Cliques em links externos
 - Rolagem de página
@@ -79,12 +76,12 @@ Em 2020, o Google Analytics 4 foi oficialmente lançado, substituindo gradualmen
 
 ### Ferramentas analytics concorrentes do Google Analytics:
 
-- [Adobe Analytics](https://business.adobe.com/br/products/analytics/adobe-analytics.html) (anteriormente Omniture): Ferramenta popular que fornece análises detalhadas sobre o tráfego do site, comportamento do usuário e informações sobre a eficácia de campanhas de marketing digital. Ferramenta extremamente robusta e paga.
+- [Adobe Analytics](https://business.adobe.com/br/products/analytics/adobe-analytics.html) (anteriormente Omniture): Ferramenta que fornece análises detalhadas sobre o tráfego do site, comportamento do usuário e informações sobre a eficácia de campanhas de marketing digital. Ferramenta extremamente robusta e paga.
 - [Matomo](https://matomo.org/): Ferramenta de código aberto com foco na privacidade do usuário, permite total controle sobre os dados e personalização completa, requer instalação e manutenção no próprio servidor.
 - [Amplitude](https://amplitude.com/): Ferramenta de análise de dados que oferece mais flexidade e recursos avançados.
 ## Por que usar o GA4?
 
-Uma coisa é certa, se você ainda não está usando nenhuma ferramenta analítica no seu site ou aplicativo, está perdendo informações valiosas sobre os seus usuários e o seu negócio. Além de estar perdendo uma grande oportunidade de aumentar suas vendas, conversões e melhorar o seu produto para o usuário final. 
+Uma coisa é certa, se você ainda não está usando nenhuma ferramenta analítica no seu site ou aplicativo, está perdendo informações valiosas sobre os seus usuários e sobre o seu negócio. Além de estar perdendo uma grande oportunidade de aumentar as vendas, conversões e em melhorar o seu produto para o usuário final. 
 
 **Veja alguns motivos para te animar a usar o GA4:**
 
@@ -96,15 +93,13 @@ Uma coisa é certa, se você ainda não está usando nenhuma ferramenta analíti
 6. **Tome decisões baseadas em dados:** Use dados concretos para embasar suas decisões de marketing e negócios.
 7. **Meça o ROI:** Acompanhe o retorno do investimento em suas campanhas de marketing e identifique quais canais geram mais resultados.
 8. **Análise personalizada:** Crie relatórios personalizados para atender às suas necessidades específicas de negócio.
-9. **Visão holística:** Combine dados de websites e aplicativos em um único lugar para ter uma visão completa da jornada do cliente.
-10. **Integrado as ferramentas Google:** Otimize suas campanhas de marketing com integrações perfeitas ao Google Ads, Search Console e outras ferramentas do Google.
-11. **Pronto para o futuro:** O GA4 foi projetado para o futuro da análise digital, com foco em privacidade e flexibilidade.
-12. **Poderoso:** O GA4 oferece uma série de recursos poderosos para ajudá-lo a entender melhor o público do seu site e como você pode gerar mais vendas ou converter mais.
-13. **Monitora tudo:** Descubra quantas pessoas visitam seu site ou app, de onde elas vêm, quais dispositivos usam e quanto tempo passam em cada página.
-14. **Revela o comportamento:** Entenda como os visitantes navegam, quais páginas mais acessam, quais botões clicam e quais formulários preenchem.
-15. **Aprofunda a análise:** Vá além das visitas e explore conversões, como compras, inscrições em newsletters ou downloads de materiais.
-16. **Identifica padrões:** Descubra tendências no comportamento dos usuários e tome decisões baseadas em dados concretos, não em achismos.
-17. **Otimiza seus investimentos:** Meça o retorno do investimento em suas campanhas de marketing e identifique quais canais geram mais resultados.
+9.  **Integrado as ferramentas Google:** Otimize suas campanhas de marketing com integrações perfeitas ao Google Ads, Search Console e outras ferramentas do Google.
+10. **Pronto para o futuro:** O GA4 foi projetado para o futuro da análise digital, com foco em privacidade e flexibilidade.
+11. **Poderoso:** O GA4 oferece uma série de recursos poderosos para ajudá-lo a entender melhor o público do seu site e como você pode gerar mais vendas ou converter mais.
+12. **Monitora tudo:** Descubra quantas pessoas visitam seu site ou app, de onde elas vêm, quais dispositivos usam e quanto tempo passam em cada página.
+13. **Revela o comportamento:** Entenda como os visitantes navegam, quais páginas mais acessam, quais botões clicam e quais formulários preenchem.
+14. **Aprofunda a análise:** Vá além das visitas e explore conversões, como compras, inscrições em newsletters ou downloads de materiais.
+15. **Identifica padrões:** Descubra tendências no comportamento dos usuários e tome decisões baseadas em dados concretos, não em achismos.
 
 ## Quem pode usar o Google Analytics 4?
 O GA4 pode ser usado por qualquer pessoa ou empresa que tenha um site ou aplicativo. É uma ferramenta ideal para todos os tipos de negócios, desde pequenas empresas e startups até grandes corporações. É perfeito para:
@@ -117,22 +112,26 @@ O GA4 pode ser usado por qualquer pessoa ou empresa que tenha um site ou aplicat
 - **Agências de marketing:** Ofereça serviços de análise avançada e demonstre resultados aos seus clientes.
 
 ## Qual o preço do Google Analytics 4?
-O Google Analytics 4 é gratuito com recursos robustos para todas as necessidades. A versão paga do Google Analytics conhecida como Google Analytics 360 oferece mais recursos e menos limitações nos dados. Segue algumas diferenças e para um detalhe mais completo veja este post.
-- Amostragem de dados maior
-- Atribuição de conversão mais complexa
-- Funções de inteligência artificial
+O Google Analytics 4 é gratuito com recursos robustos para todas as necessidades. A versão paga do Google Analytics conhecida como Google Analytics 360 oferece mais recursos e menos limitações nos dados. Segue algumas funcionalidades que só existem no Google Analytics 360:
+- Sub propriedades
+- Propriedade roll-up
+- Retenção dos dados por até 50 meses
+- Maior limite na requisição de dados
+- Menor limite de dados
+- Menor aplicação de amostragem de dados
+- Maior limite na configuração da propriedade(parâmetros de eventos, usuário, dimensões personalizadas, métricas personalizadas, quantidade de relatório de dados)
 - Suporte premium
 
 ## Relatórios no Google Analytics
 O GA4 oferece uma variedade de relatórios pré-definidos e personalizáveis para atender à diversas necessidades de análise:
 
-- **Relatórios de Visão Geral:** Fornecem um resumo rápido do desempenho do seu site ou aplicativo, incluindo tráfego, usuários, sessões e conversões.
-- **Relatórios de Aquisição:** Mostram de onde seus visitantes vêm, quais canais de marketing são mais eficazes e como as pessoas encontram seu site ou aplicativo.
+- **Relatórios de Visão Geral:** Resumo rápido do desempenho do seu site ou aplicativo, incluindo tráfego, usuários, sessões e conversões.
+- **Relatórios de Aquisição:** De onde seus visitantes vieram, quais canais de marketing são mais eficazes e como as pessoas encontram seu site ou aplicativo.
 - **Relatórios de Comportamento:** Detalham o que os usuários fazem em seu site ou aplicativo, quais páginas visitam, quanto tempo passam em cada página e quais ações realizam.
 - **Relatórios de Conversão:** Acompanham as conversões importantes para o seu negócio, como compras, inscrições em newsletters ou downloads de arquivos.
 - **Relatórios de Atribuição:** Mostram como as diferentes interações que os usuários têm com seu site ou aplicativo contribuem para as conversões.
-- **Relatórios de Público:** Permitem segmentar seu público por diferentes critérios, como demografia, interesses e comportamento, para entender melhor suas necessidades e preferências.
-- **Relatórios em Tempo Real:** Fornecem insights sobre o que está acontecendo em seu site ou aplicativo no momento, incluindo tráfego, usuários, sessões e conversões.
+- **Relatórios de Usuário:** Permitem segmentar seu público por diferentes critérios, como demografia, interesses e comportamento, para entender melhor suas necessidades e preferências.
+- **Relatórios em Tempo Real:** Fornecem insights sobre o que está acontecendo em seu site ou aplicativo no momento.
 
 **Além dos relatórios pré-definidos, você também pode criar relatórios personalizados:**
 

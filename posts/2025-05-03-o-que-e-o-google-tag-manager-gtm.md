@@ -12,27 +12,28 @@ image: "../static/assets/img/desert.jpg"
 O **Google Tag Manager(GTM)** é uma ferramenta gratuita da Google que permite instalar, armazenar e controlar tags de marketing sem precisar mexer no código-fonte do site ou aplicativo. Imagine o GTM/Google Tag Manager como uma caixa grande onde você guarda uma lista de tudo que você rastrear e coletar das pessoas que acessam o seu site ou aplicativo. 
 
 ## O que são Tags? 
-Tags são pequenos trechos de código usados para rastrear e coletar as ações que as pessoas fazem ao visitar um site ou aplicativo. As tags são como pequenos espiões digitais, elas rastreiam ações como cliques em botões, visualizações de páginas, compras, envio de formulários, interações com vídeos e muito mais. Essas informações são essenciais para entender o comportamento do seu público, otimizar suas estratégias e aumentar as suas conversões, suas vendas e aumentar o seu público. 
-Para facilitar, imagine cada tag como sendo um item que você está guardando na grande caixa(Google Tag Manager / GTM).
+Tags são pequenos trechos de código usados para rastrear e coletar as ações que as pessoas fazem ao visitar um site ou aplicativo. As tags são como pequenos espiões digitais, elas rastreiam ações como cliques em botões, visualizações de páginas, compras, envio de formulários, interações com vídeos e muito mais. Essas informações são essenciais para entender o comportamento do seu público, otimizar suas estratégias e aumentar as conversões/vendas. 
+Imagine uma tag como sendo um item que você quer monitorar no seu site e você está guardando este item na caixa grande(Google Tag Manager / GTM).
 
 ### Exemplos de tags:
-- **Compra em sites de ecommerce**: Você pode ter uma tag que rastreia quando o usuário faz uma compra e armazena esses dados em algum local.
--  **Clique em botões**: Quando o usuário clica em um botão/CTA no seu site ou aplicativo você tem uma tag que dispara com a informação de clique.
-- **Google Analytics 4**: Você pode ter uma tag para instalar a ferramenta Google Analytics 4 que automaticamente rastreia o tráfego do seu site e fornece relatórios e insights valiosos sobre seus visitantes. [Saiba mais sobre o Google Analytics e por que você precisa dele aqui](/o-que-e-o-google-analytics-4-porque-voce-precisa-dele/).
+- **Compra em sites de ecommerce**: Você pode ter uma tag para rastrear quando o usuário faz uma compra.
+-  **Clique em botões**: Você tem outra tag para monitorar quando o usuário clica em um botão/CTA no seu site ou aplicativo.
+- **Google Analytics 4**: Você pode ter uma tag para instalar a ferramenta Google Analytics 4 que automaticamente rastreia o tráfego do seu site e fornece relatórios e insights sobre seus visitantes. [Saiba mais sobre o Google Analytics e por que você precisa dele aqui](/o-que-e-o-google-analytics-4-porque-voce-precisa-dele/).
 
 ## Benefícios do Google Tag Manager
 
 1. **Economia de tempo e recursos:** Permite instalar tags sem a necessidade de alterar o código-fonte do site, consolidando tudo em um único local. Você não precisa de um desenvolvedor/programador para instalar as tags, poderá instalar de maneira fácil e rápida usando o GTM.
-2. **Maior organização e controle:** Mantenha todas as suas tags em um só lugar, acompanhe o histórico de alterações e caso aconteça algum problema no seu site ou aplicativo, com dois cliques você volta para a versão anterior quando estava funcionando. Isso facilita a gestão, proporcionando um ambiente mais controlado, rastreável e flexível.
-3. **Integração com diversas ferramentas:** Com poucos cliques você conecta o GTM às suas ferramentas de marketing para ter uma visão completa do seu negócio. Exemplo de integrações: Google Analytics 4(GA4), Google Ads, Meta Ads(Facebook Ads) e muitas outras ferramentas. 
-4. **Redução de erros e depuração:** Oferece recursos de teste e depuração integrados, reduzindo o risco de erros na instalação das tags e falhas no site.
+2. **Maior organização e controle:** Mantenha todas as suas tags em um só lugar, acompanhe o histórico de alterações e caso aconteça algum problema no seu site ou aplicativo, com dois cliques você pode voltar para a versão anterior, quando tudo estava funcionando normalmente. Isso facilita a gestão, proporcionando um ambiente mais controlado, rastreável e flexível.
+3. **Integração com diversas ferramentas:** Com poucos cliques você conecta o GTM às suas ferramentas de marketing para ter uma visão completa do seu negócio. Exemplo de integrações nativas: Google Analytics 4(GA4), Google Ads, Meta Ads(Facebook Ads) e muitas outras ferramentas. 
+4. **Redução de erros e depuração:** O GTM oferece recursos de teste e depuração integrados, reduzindo o risco de erros na instalação das tags e falhas no site.
 5. **Otimização do desempenho do site:** O GTM carrega as tags de forma assíncrona, sem impactar a velocidade do seu site e reduz o risco de impactar a experiência do usuário.
 6. **Flexibilidade e personalização:** Consegue criar gatilhos/triggers, variáveis e regras personalizadas para atender às suas necessidades específicas.
 
 ## Quem pode usar o Google Tag Manager?
 
-O GTM é ideal para qualquer pessoa que gerencia um site ou aplicativo, desde iniciantes até profissionais experientes em marketing digital. É gratuito, fácil de usar e oferece diversos recursos para atender às suas necessidades.
-Mesmo desenvolvedores que possuem total controle do código-fonte usam o Google Tag Manager(GTM) devido a sua facilidade, organização, gerenciamento. Você economiza tempo, recursos, além de reduzir a chance de erros e quebra do seu site. O GTM é o seu assistente de rastreamento web e é gratuito.
+O GTM é ideal para qualquer pessoa que gerencia um site ou aplicativo, desde iniciantes até profissionais experientes em marketing digital. É gratuito, simples de usar e oferece diversos recursos para atender às suas necessidades.
+Mesmo desenvolvedores que possuem total controle do código-fonte usam o Google Tag Manager(GTM) devido a sua facilidade, organização e gerenciamento. Você economiza tempo, recursos, além de reduzir a chance de erros e de quebrar o site. 
+**O GTM é o seu assistente de rastreamento web e é gratuito.**
 
 ### Sem o uso do GTM: Dependência do Desenvolvedor/Programador
 
@@ -42,17 +43,16 @@ Quando você não utiliza um gerenciador de tags, como o GTM, você precisará d
 
 
 
-- Você quer rastrear eventos, como cliques em botões, visualizações de página ou quer adicionar uma nova ferramenta no seu site.
-- Mas, sem o GTM ou um gerenciador de tags, você precisa recorrer ao programador para cada alteração ou instalação. 
+Você quer rastrear eventos, como cliques em botões, visualizações de página ou quer adicionar uma nova ferramenta no seu site. Mas, sem o GTM ou um gerenciador de tags, você precisa recorrer ao programador para cada alteração ou instalação. 
 
 
 ### Com o GTM: Liberdade e Agilidade
 
 ![Usando o Google Tag Manager(GTM)](../static/assets/img/gtm/uso-do-google-tag-manager-ga4.png)
 
-Quando você um gerenciador de tags, como o Google Tag Manager(GTM), o fluxo fica simplificado e você não precisará do desenvolvedor.
+Quando você usa um gerenciador de tags, como o Google Tag Manager(GTM), o fluxo fica simplificado e você não precisará do desenvolvedor para todas as atividades.
 
-- Você quer rastrear eventos e adicionar uma nova ferramenta de marketing no seu site, mas agora tem um ferramenta gratuita e poderosa à disposição. 
+- Você quer rastrear eventos e adicionar uma nova ferramenta de marketing no seu site, e agora tem um ferramenta gratuita e poderosa à disposição. 
 - Você acessa o GTM e cria uma tag com poucos cliques sem tocar no código-fonte e sem recorrer ao desenvolvedor/programador.
 
 ## Como instalar o Google Tag Manager
