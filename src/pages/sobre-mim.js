@@ -15,16 +15,11 @@ const AboutPage = () => (
     <MainContent>
       <h1>Sobre mim</h1>
       <p>
-        Olá! Meu nome é Felipe Lullio, e sou analista de dados com experiência
-        em desenvolvimento JavaScript. Tenho mais de 10 anos de experiência na
-        área de tecnologia. Sou formado em análise e desenvolvimento de sistemas
-        pela FIAP, já trabalhei com desenvolvimento web, marketing digital e
-        análise de dados.
+        Olá! Sou Felipe Lullio, analista de dados com mais de 12 anos de experiência em tecnologia. Formado em análise e desenvolvimento de sistemas pela FIAP, tenho experiência em desenvolvimento web e marketing digital. Atualmente, estou focado na área de web analytics e em aprimorar minhas habilidades em Python.
       </p>
 
       <p>
-        Acredito no poder dos dados para impulsionar o crescimento das empresas,
-        e é por isso que me especializei em ferramentas como{" "}
+        Acredito no poder dos dados para impulsionar o crescimento das empresas, por isso que me especializei em tecnologias como{" "}
         <a href="" target="_blank" rel="noopener noreferrer">
           Google Analytics 4
         </a>
@@ -40,6 +35,10 @@ const AboutPage = () => (
         <a href="" target="_blank" rel="noopener noreferrer">
           BigQuery
         </a>
+        ,{" "}
+        <a href="" target="_blank" rel="noopener noreferrer">
+          JavaScript
+        </a>
         {" e "}
         <a href="" target="_blank" rel="noopener noreferrer">
           Google Apps Script
@@ -47,7 +46,7 @@ const AboutPage = () => (
         {", "}
         ajudando as empresas com as tomada de decisões estratégicas
         fundamentadas em dados. Possuo as certificações oficiais da Google e
-        tenho bastante experiência em criação de dashboards e relatórios
+        tenho ampla experiência na criação de dashboards e relatórios
         personalizados.
       </p>
 
