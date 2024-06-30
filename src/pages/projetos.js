@@ -14,7 +14,7 @@ const projectsList = [
     title: 'Lista de Tarefas',
     link: 'https://projetos.lullio.com.br/lista-de-tarefas',
     description:
-      'Desenvolvi essa aplicação web para operações CRUD utilizando MongoDB, Node.js e Express.js. O backend(node.js e express.js) é hospedado em meu próprio servidor caseiro Raspberry Pi.'
+      'Desenvolvi essa aplicação web para operações CRUD utilizando MongoDB, Node.js e Express.js. O backend(node.js e express.js) é hospedado em meu próprio servidor caseiro Raspberry Pi. user: felipe | pass: javascript'
   },
   {
     title: 'Gerenciador de Cursos',
