@@ -6,55 +6,60 @@ import Project from '../components/Project'
 
 const projectsList = [
   {
-    title: 'Blog Analytics Nerd',
+    title: 'Este Blog',
     link: 'https://blog.lullio.com.br',
-    description: 'Aplicação Web desenvolvida com React, Gatsby, GraphQL, Styled Components, Algolia, NetlifyCMS, Netlify.'
-  },
-  {
-    title: 'Automatizator - Automatização de Tarefas',
-    link: 'https://automatizator.com.br/',
-    description: 'Website desenvolvido com HTML5, CSS3 e JavaScript'
+    description: 'Desenvolvi este blog com as seguintes tecnologias: React, Gatsby, GraphQL, Styled Components, Algolia, NetlifyCMS, Netlify.'
   },
   {
     title: 'Lista de Tarefas',
     link: 'https://projetos.lullio.com.br/lista-de-tarefas',
     description:
-      'Aplicação web simples para operações C.R.U.D com MongoDB, NodeJS, ExpressJS'
+      'Desenvolvi essa aplicação web para operações CRUD utilizando MongoDB, Node.js e Express.js. O backend(node.js e express.js) é hospedado em meu próprio servidor caseiro Raspberry Pi.'
   },
   {
-    title: 'Gerenciador de Projetos',
-    link: 'https://projetos.lullio.com.br/gerenciador-de-projetos-e-controle-de-video',
+    title: 'Gerenciador de Cursos',
+    link: 'https://projetos.lullio.com.br/gerenciador-de-cursos-e-controle-de-video',
     description:
-      'Programa Desktop desenvolvido para automatizar interações com vídeos e ter fácil acesso aos seus projetos.'
+      'Desenvolvi um programa desktop para automatizar interações com vídeos e gerenciar uma lista de cursos. Usei Autohotkey e JavaScript para criar a primeira versão do programa. A segunda versão do programa desenvolvi em Python e JavaScript com funcionalidades adicionais.'
   },
   {
-    title: 'Gerenciador de Tarefas usando a API do Notion',
+    title: 'Gerenciador de Tarefas e Anotações',
     link: 'https://projetos.lullio.com.br/notion-api',
-    description: 'Programa Desktop desenvolvido para automatizar a inserção de anotações e tarefas para o Notion.'
+    description: 'Desenvolvi um programa desktop para automatizar e gerenciar anotações utilizando AutoHotkey e JavaScript. O programa integra a API do Notion como backend, e tem uma interface web e uma GUI criada com AutoHotkey'
   },
   {
-    title: 'Gerenciador do GTM',
+    title: 'Gerenciador do GTM(Google Tag Manager)',
     link: 'https://projetos.lullio.com.br/programas',
     description:
-      'Programa desktop para automatizar o gerenciamento do GTM.'
+      'Desenvolvi um programa desktop(Python, JavaScript, Autohotkey) e um site(Google Apps Script, HTML5/CSS3/JS) para automatizar o gerenciamento do GTM, integrando a API do GTM para automatizar a criação e gestão de tags, triggers, variáveis e mais. (BETA)'
   },
   {
-    title: 'Gerenciador do GA4',
+    title: 'Gerenciador do GA4(Google Analytics 4)',
     link: 'https://projetos.lullio.com.br/programas',
     description:
-      'Programa desktop para automatizar o gerenciamento do GA4.'
+      'Desenvolvi um programa desktop(Python, JavaScript, Autohotkey) e um site(Google Apps Script, HTML5/CSS3/JS) para automatizar o gerenciamento do GA4, integrando Data API e Admin API para automatizar o gerenciamento de contas, propriedades, fluxo de dados, configurações e também a criação e automatização de relatórios. (BETA)'
   },
   {
     title: 'Expansor de Textos',
     link: 'https://projetos.lullio.com.br/programas',
     description:
-      'Programa Desktop para automatizar a inserção de textos, códigos, imagens e muito mais.'
+      'Desenvolvi um programa desktop para automatizar a expansão de textos/códigos/imagens e mais.'
   },
   {
     title: 'Gerenciador de Documentações',
     link: 'https://projetos.lullio.com.br/gerenciador-de-documentacoes',
     description:
-      'Programa Desktop para automatizar a pesquisa e inserção de documentações, recursos úteis.'
+      'Desenvolvi um programa desktop para automatizar a pesquisa, inserção gerenciamento de documentações/links.'
+  },
+  {
+    title: 'Em Desenvolvimento',
+    link: '',
+    description: 'Estou desenvolvendo um programa completo para automatizar análise de vídeos, imagens e qualquer tipo de arquivo utilizando a inteligência artificial do ChatGPT e GEMINI. Em seguida pretendo integrar o programa com a API do GA4 para automatizar a análise de dados e geração de insights.'
+  },
+  {
+    title: 'Automatizator - Automatização de Tarefas',
+    link: 'https://automatizator.com.br/',
+    description: 'Website desenvolvido com HTML5, CSS3 e JavaScript'
   }
 ]
 
