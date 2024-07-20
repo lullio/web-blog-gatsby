@@ -7,8 +7,14 @@ import Project from '../components/Project'
 const projectsList = [
   {
     title: 'Blog Analytics (Este blog)',
-    link: 'https://blog.lullio.com.br',
+    link: 'https://projetos.lullio.com.br/blog-analytics',
     description: 'Desenvolvi este blog com as seguintes tecnologias: React, Gatsby, GraphQL, Styled Components, Algolia, NetlifyCMS, Netlify.'
+  },
+  {
+    title: 'Servidor Raspberry Pi',
+    link: 'https://projetos.lullio.com.br/servidor-linux',
+    description:
+      'Configurei um servidor Linux completo em um Raspberry Pi, com Apache, NGINX, servidor de arquivos, servidor DNS para bloqueio de propagandas e hospedagem de sites com WordPress e Node.js.'
   },
   {
     title: 'Lista de Tarefas',
