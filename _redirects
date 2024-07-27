@@ -1,0 +1,5 @@
+# Redireciona todo o tráfego de main--lullio.netlify.app para lullio.com.br
+https://main--lullio.netlify.app/* https://lullio.com.br/:splat 301!
+
+# Redireciona http para https (se necessário)
+http://lullio.com.br/* https://lullio.com.br/:splat 301!
