@@ -8,7 +8,7 @@ const projectsList = [
   {
     title: 'Blog Analytics (Este blog)',
     link: 'https://projetos.lullio.com.br/blog-analytics',
-    description: 'Desenvolvi este blog com as seguintes tecnologias: React, Gatsby, GraphQL, Styled Components, Algolia, NetlifyCMS, Netlify.'
+    description: 'Desenvolvi este blog com as seguintes tecnologias: React, Gatsby, GraphQL, Styled Components, Algolia, Netlify, Decap CMS(aka NetlifyCMS).'
   },
   {
     title: 'Servidor Raspberry Pi',
