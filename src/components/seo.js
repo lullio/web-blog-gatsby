@@ -60,11 +60,15 @@ function SEO({ description, lang, meta, title, image }) {
           content: `website`,
         },
         {
+          property: `og:url`,
+          content: url,
+        },
+        {
           name: `twitter:card`,
           content: `summary_large_image`,
         },
         {
-          name: `twitter:image:src`,
+          name: `twitter:image`,
           content: ogImage,
         },
         {
@@ -78,6 +82,14 @@ function SEO({ description, lang, meta, title, image }) {
         {
           name: `twitter:description`,
           content: metaDescription,
+        },
+        {
+          name: `robots`,
+          content: `index, follow`,
+        },
+        {
+          name: `keywords`,
+          content: `Google Analytics 4, Google Tag Manager, Google Looker Studio, Google Apps Script, PowerBI`,
         },
       ].concat(meta)}
     />
