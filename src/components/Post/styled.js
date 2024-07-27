@@ -76,7 +76,7 @@ export const MainContent = styled.section`
     padding: 0 1.4rem;
 
     ${media.lessThan("large")`
-      font-size: 1.12rem;
+      font-size: 1rem;
       padding: 0 1rem;
       word-break: break-word;
     `}
@@ -170,7 +170,7 @@ export const MainContent = styled.section`
     font-size: 2.1rem;
 
     ${media.lessThan("large")`
-      font-size: 1.375rem;
+      font-size: 1.275rem;
     `}    
   }
 
