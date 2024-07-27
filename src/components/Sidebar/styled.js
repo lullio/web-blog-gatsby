@@ -18,7 +18,7 @@ export const SidebarContainer = styled.aside`
    ${media.lessThan("large")`
       align-items: flex-start;
       border: 0;
-      height: calc(100% - 85px);
+      height: calc(100% - 65px);
       padding: 0;
       width: 100%;
       z-index: 10;
