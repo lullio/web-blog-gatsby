@@ -4,7 +4,7 @@ title: O que é o Google Analytics 4 (GA4) e por que você precisa dele?
 description: Entenda o que é o Google Analytics (GA4), ferramenta poderosa e gratuita da Google, essencial para o sucesso de qualquer negócio online. 
 category: GA4
 background: "#e37400"
-image: "static/assets/img/desert.jpg"
+image: "/assets/img/desert.jpg"
 ---
 
 # O que é o Google Analytics 4?

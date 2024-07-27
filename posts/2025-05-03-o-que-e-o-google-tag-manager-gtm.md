@@ -4,7 +4,7 @@ title: O que é o Google Tag Manager(GTM) e por que você precisa dele?
 description: Descubra como simplificar o rastreamento de dados do seu site ou aplicativo de maneira gratuita com o Google Tag Manager(GTM). Entenda por que o GTM é essencial para otimizar suas estratégias de marketing online.
 category: GTM
 background: "#4385f5"
-image: "static/assets/img/desert.jpg"
+image: "/assets/img/desert.jpg"
 ---
 
 ## O que é o Google Tag Manager e por que você precisa dele?
