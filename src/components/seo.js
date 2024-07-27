@@ -64,6 +64,10 @@ function SEO({ description, lang, meta, title, image }) {
           content: url,
         },
         {
+          property: `og:locale`,
+          content: `pt_BR`,
+        },
+        {
           name: `twitter:card`,
           content: `summary_large_image`,
         },
@@ -97,7 +101,7 @@ function SEO({ description, lang, meta, title, image }) {
 }
 
 SEO.defaultProps = {
-  lang: `en`,
+  lang: `pt_BR`,
   meta: [],
   description: ``,
 }
