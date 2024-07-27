@@ -185,6 +185,12 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
       },
     },
+    {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: `analytics-nerd`
+      }
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`,
