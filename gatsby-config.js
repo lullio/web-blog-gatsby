@@ -187,5 +187,7 @@ module.exports = {
     },
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`,
+    // `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-decap-cms`
   ],
 }
