@@ -185,6 +185,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
       },
     },
+    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`,
     // `gatsby-plugin-netlify-cms`,

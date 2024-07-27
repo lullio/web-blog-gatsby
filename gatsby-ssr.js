@@ -1,29 +1,14 @@
-/**
- * Implement Gatsby's SSR (Server Side Rendering) APIs in this file.
- *
- * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-ssr/
- */
-
-/**
- * @type {import('gatsby').GatsbySSR['onRenderBody']}
- */
-var React = require("react");
-
-// Hack, to reorder the helmet components as first in <head> tag
+// gatsby-ssr.js
 exports.onPreRenderHTML = ({ getHeadComponents, replaceHeadComponents }) => {
-    /**
-     * @type {any[]} headComponents
-     */
-    const headComponents = getHeadComponents();
-
-    headComponents.sort((a, b) => {
-        if (a.props && a.props["data-react-helmet"]) {
-            return 0;
-        }
-        return 1;
-    });
-    replaceHeadComponents(headComponents);
-};
-exports.onRenderBody = ({ setHtmlAttributes }) => {
-  setHtmlAttributes({ lang: `en` })
+  const headComponents = getHeadComponents()
+  
+  // Sort components to place Helmet tags first
+  const sortedComponents = headComponents.sort((a, b) => {
+    if (a.props && a.props["data-react-helmet"]) {
+      return -1
+    }
+    return 1
+  })
+  
+  replaceHeadComponents(sortedComponents)
 }
