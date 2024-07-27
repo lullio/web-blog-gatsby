@@ -111,6 +111,9 @@ export const PostItemTitle = styled.h1`
     line-height: 1.1;
     margin: 0.8rem 0;
   }
+  ${media.lessThan("large")`
+    font-size: 1.5rem;
+  `}
 
 `
 
@@ -118,4 +121,7 @@ export const PostItemDescription = styled.p`
   font-size: 1.2rem;
   font-weight: 300;
   line-height: 1.2;
+  ${media.lessThan("large")`
+    font-size: 1.1rem;
+  `}
 `
