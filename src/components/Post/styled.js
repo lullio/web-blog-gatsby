@@ -93,13 +93,17 @@ export const MainContent = styled.section`
   h5 {
     margin: 2.4rem auto 1rem;
   }
-
-  ul,
-  ol {
-    list-style: disc;
+    
+  ul {
+    list-style: disc; /* Lista não ordenada */
     padding-left: 2.5rem;
     margin: 0 auto 1.6rem;
   }
+  ol {
+    list-style: decimal; /* Lista ordenada */
+    padding-left: 2.5rem;
+    margin: 0 auto 1.6rem;
+  }  
 
   li {
     padding: 0.625rem 0;

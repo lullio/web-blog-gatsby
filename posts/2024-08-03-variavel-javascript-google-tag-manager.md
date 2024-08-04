@@ -11,13 +11,14 @@ image: "/assets/img/desert.jpg"
 
 ![Imagem Variável JavaScript no GTM](/assets/img/gtm/gtm-variavel-javascript.png)
 
-Vamos falar sobre uma das funcionalidades mais interessantes (e talvez uma das mais confusas) do Google Tag Manager: a variável JavaScript. Já se viu tentando rodar um document.querySelector('.class').textContent na variável JavaScript e se perguntando por que não funcionou? Fique tranquilo, você não está sozinho!  
+Vamos falar sobre uma das funcionalidades mais interessantes (e talvez uma das mais confusas) do Google Tag Manager: a variável JavaScript.  
+Já se viu tentando rodar um `document.querySelector('.class').textContent` na variável JavaScript e se perguntando por que não funcionou? Fique tranquilo, você não está sozinho!  
 Vamos explorar juntos e ver tudo que podemos fazer! 
 
 Se você ainda não conhece o **Google Tag Manager (GTM)**, essa ferramenta gratuita e poderosa da Google facilita o gerenciamento de tags e pixels no seu site. [Descubra mais sobre o GTM e como ele funciona aqui](/o-que-e-o-google-tag-manager-gtm/). A variável JavaScript é uma funcionalidade muito importante do GTM.
 
 ## O que é a Variável JavaScript no GTM?
-Talvez você já tenha visto algo sobre isso na [documentação oficial do Google](https://support.google.com/tagmanager/answer/7683362?hl=pt-BR) e em outros posts, mas a verdade é que ainda deixa muitas dúvidas. Então, o que você consegue fazer com a variável JavaScript? 
+Talvez você já tenha visto algo sobre isso na <a href="https://support.google.com/tagmanager/answer/7683362?hl=pt-BR&utm_source=felipe-lullio" target="_blank">documentação oficial do Google</a> e em outros posts, mas a verdade é que ainda deixa muitas dúvidas. Então, o que você consegue fazer com a variável JavaScript? 
 Basicamente, **ela permite que você recupere o valor de uma variável global JavaScript**, como o título da página(`document.title`) ou a URL(`document.URL`). Simples, não?
 
 ## Não confunda com a variável "JavaScript personalizado"
@@ -32,18 +33,18 @@ Um exemplo prático dessa diferença surge quando a variável incorporada do GTM
 </button>
 ```
 
-No caso do clique ocorrer na imagem do botão, pode ser que a variável "Click Text" do GTM retorne uma string vazia ou undefined. Para resolver isso, poderíamos usar criar uma variável "JavaScript Personalizado" com o seguinte código:
+No caso do clique ocorrer na imagem do botão, pode ser que a variável "Click Text" do GTM retorne uma string vazia ou `undefined`. Para resolver isso, poderíamos usar criar uma variável "JavaScript Personalizado" com o seguinte código:
 
 ```js
 function() {
-  return {{Click Element}}.closest('a').textContent;
+  return {{Click Element}}.closest('a, button').textContent;
 }
 ```
 
 **Este código faz o seguinte**:
 
 1. `{{Click Element}}`: Variável incorporada do GTM que retorna o elemento HTML clicado(no caso, a imagem `<img>`)
-2. `.closest('a')`: Encontra o elemento `<a>` mais próximo da imagem clicada(ou de qualquer outro elemento clicado).
+2. `.closest('a, button')`: Encontra o elemento `<a>` ou `<button>` mais próximo da imagem clicada(ou de qualquer outro elemento clicado).
 3. `.textContent`: Retorna o texto completo do elemento `<a>`, ou seja, o texto "Ver Produtos".
 
 
@@ -73,21 +74,19 @@ Em alguns sites, especialmente de e-commerce, é comum ter variáveis globais co
 Segue alguns exemplos de variáveis globais que podem estar disponíveis para diferentes tipos de sites:
 
 **Sites Magento**:
-1. `window.checkout`
-2. `window.customerData`
-3. `window.productData`
-
+-  `window.checkout`
+-  `window.customerData`
+-  `window.productData`
 **Sites WordPress**
-1. `window.wcCart`
-2. `window.wcCheckout`
-3. `window.wpData`
-
+-  `window.wcCart`
+-  `window.wcCheckout`
+-  `window.wpData`
 **Sites Drupal**
-1. `window.drupalSettings`
-2. `window.drupalSettings.user.uid`
+-  `window.drupalSettings`
+-  `window.drupalSettings.user.uid`
 
 ### Outras Fontes de Armazenamento
-Se você não encontrar nada nas variáveis globais, há uma boa chance de que você encontre algo útil no `window.sessionStorage` ou `window.localStorage` ou até mesmo nos cookies. Essas áreas são frequentemente usadas para armazenar dados temporários ou permanentes que podem ser úteis para suas necessidades de rastreamento e análise.
+Se você não encontrar nada nas variáveis globais, há uma boa chance de que você encontre algo útil no `window.sessionStorage` ou `window.localStorage` ou IndexedDB que é uma API de armazenamento de dados em grande escala.(`indexedDB.databases().then(dbs => console.log(dbs));`) ou Cache Storage que é uma API para armazenamento de recursos de rede, como solicitações e respostas HTTP(`caches.keys().then(keys => console.log(keys));`) ou até mesmo nos cookies(`document.cookie`). Essas áreas são frequentemente usadas para armazenar dados temporários ou permanentes(localStorage e IndexedDB) que podem ser úteis para suas necessidades de rastreamento e análise.
 
 ## Testando sua Variável JavaScript no GTM
 Depois de criar a variável JavaScript é hora de testê-lá. 
@@ -113,7 +112,8 @@ Repare que para invocar uma variável GTM, basta colocá-la entre chaves duplas:
 ![Eventos modo Preview do GTM guia Variables](/assets/img/gtm/gtm-gtag-custom-variable-page-title.png)
 
 **Observação:**
-O parâmetro `page_title`, já é coletado automaticamente pelo Google Analytics 4 em todos os eventos. Ao defini-lo na configuração gtag, você estará substituindo o valor padrão capturado pelo GA4. A única diferença entre o nosso `{{JS - Título da Página}}` e o `page_title` do GA4, é que a nossa versão estará em letras minúsculas. [Saiba mais sobre os eventos e parâmetros coletados automaticamente.](https://support.google.com/analytics/answer/9234069?hl=en&utm_source=felipe-lullio)
+O parâmetro `page_title`, já é coletado automaticamente pelo Google Analytics 4 em todos os eventos. Ao defini-lo na configuração gtag, você estará substituindo o valor padrão capturado pelo GA4. A única diferença entre o nosso `{{JS - Título da Página}}` e o `page_title` do GA4, é que a nossa versão estará em letras minúsculas. <a href="https://support.google.com/analytics/answer/9234069?hl=en&utm_source=felipe-lullio" target="_blank">Saiba mais sobre os eventos e parâmetros coletados automaticamente.</a>
+
 
 Se você não deseja sobrescrever o valor padrão do GA4, utilize um parâmetro personalizado, como `custom_page_title`, para armazenar o título da página em minúsculas, assim você poderá usar as duas opções no GA4. [Saiba mais sobre parâmetros personalizados e dimensões personalizadas aqui](/).
 
