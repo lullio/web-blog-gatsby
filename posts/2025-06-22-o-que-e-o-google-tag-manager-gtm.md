@@ -1,5 +1,5 @@
 ---
-date: 2024-01-05 22:00:55
+date: 2024-06-22 15:04:54
 title: O que é o Google Tag Manager(GTM) e por que você precisa dele?
 description: Descubra como simplificar o rastreamento de dados do seu site ou aplicativo de maneira gratuita com o Google Tag Manager(GTM). Entenda por que o GTM é essencial para otimizar suas estratégias de marketing online.
 category: GTM
@@ -9,11 +9,11 @@ image: "/assets/img/desert.jpg"
 
 ## O que é o Google Tag Manager e por que você precisa dele?
 
-O **Google Tag Manager(GTM)** é uma ferramenta gratuita da Google que permite instalar, armazenar e controlar tags de marketing sem precisar mexer no código-fonte do site ou aplicativo. Imagine o GTM/Google Tag Manager como uma caixa grande onde você guarda uma lista de tudo que você rastrear e coletar das pessoas que acessam o seu site ou aplicativo. 
+O **Google Tag Manager(GTM)** é uma ferramenta gratuita da Google que permite instalar, armazenar e controlar tags sem precisar editar o código-fonte do site ou aplicativo. Imagine o GTM/Google Tag Manager como uma caixa grande onde você guarda uma lista de tudo que você deseja rastrear e coletar das pessoas que acessam o seu site ou aplicativo. 
 
 ## O que são Tags? 
-Tags são pequenos trechos de código usados para rastrear e coletar as ações que as pessoas fazem ao visitar um site ou aplicativo. As tags são como pequenos espiões digitais, elas rastreiam ações como cliques em botões, visualizações de páginas, compras, envio de formulários, interações com vídeos e muito mais. Essas informações são essenciais para entender o comportamento do seu público, otimizar suas estratégias e aumentar as conversões/vendas. 
-Imagine uma tag como sendo um item que você quer monitorar no seu site e você está guardando este item na caixa grande(Google Tag Manager / GTM).
+Tags são pequenos trechos de código usados para rastrear e coletar as ações que as pessoas fazem ao visitar um site ou aplicativo. As tags são como pequenos espiões digitais, elas rastreiam ações como cliques em botões, visualizações de páginas, compras, envio de formulários, interações com vídeos e muito mais. Essas informações são essenciais para entender o comportamento do público, otimizar estratégias e aumentar as conversões/vendas. 
+Imagine uma tag como um item que você deseja monitorar em seu site, e o Google Tag Manager (GTM) como uma grande caixa onde você armazena e gerencia esses itens de monitoramento.
 
 ### Exemplos de tags:
 - **Compra em sites de ecommerce**: Você pode ter uma tag para rastrear quando o usuário faz uma compra.
@@ -68,7 +68,7 @@ Quando você usa um gerenciador de tags, como o Google Tag Manager(GTM), o fluxo
 5. **Adicione o código do GTM ao seu site ou aplicativo**: Logo em seguida você será redirecionado para uma tela com o código e as instruções de onde inserir o código de instalação do Google Tag Manager
    ![Quinto passo - Instalar o GTM](../static/assets/img/gtm/instalar-o-gtm-passo-5.png)
 
-Insira o código abaixo na tag <head> do seu site, substuindo o GTM-XXXXXXXX pelo id do seu container GTM.
+Insira o código abaixo na tag  `<head>` do seu site, substuindo o GTM-XXXXXXXX pelo id do seu container GTM.
 
 ```html
 <!-- Google Tag Manager -->
@@ -79,7 +79,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-XXXXXXXX');</script>
 <!-- End Google Tag Manager -->
 ```
-Insira o código abaixo na tag <body> do seu site, substuindo o GTM-XXXXXXXX pelo id do seu container GTM.
+
+Insira o código abaixo na tag `<body>` do seu site, substuindo o GTM-XXXXXXXX pelo id do seu container GTM.
 
 ```html
 <!-- Google Tag Manager (noscript) -->
@@ -105,6 +106,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 ```
 ### Mesma Tag no GTM:
 ![Exemplo de tag no GTM](../static/assets/img/gtm/gtm-tag-example-1.png)
+
+
 
 ## Conclusão
 O Google Tag Manager é gerenciador de tags e uma ferramenta essencial para qualquer profissional de marketing digital e qualquer empresa que deseja gerenciar e otimizar o rastreamento de seu site ou aplicativo. Com sua interface amigável, recursos poderosos e flexibilidade, o GTM atua como um facilitador, permitindo que você instale, remova, gerencie e organize todo o rastreamento, tags e scripts sem a necessidade de um programador/desenvolvedor.

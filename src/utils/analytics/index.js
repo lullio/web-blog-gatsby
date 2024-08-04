@@ -1,7 +1,8 @@
 // src/utils/analytics/index.js
-import { trackPWAInstall } from './pwa';
+import { trackPWAInstall, trackPWAOpen } from './pwa';
 
 export const initAnalytics = () => {
   trackPWAInstall();
-  // Adicione outros rastreamentos aqui, conforme necessário
+  trackPWAOpen();
+  // Adicione outros rastreamentos aqui
 };

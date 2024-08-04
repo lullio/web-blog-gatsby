@@ -20,16 +20,21 @@ exports.onPreRenderHTML = ({ getHeadComponents, replaceHeadComponents }) => {
   // Substitui os componentes head com os componentes ordenados
   replaceHeadComponents(sortedComponents);
 };
+//  removi essa parte do código porque a configuração do gatsby-plugin-google-gtag já deve adicionar o script gtag.js automaticamente
 // Adiciona o `dataLayer` para Google Tag Manager
-exports.onRenderBody = ({ setPreBodyComponents }) => {
-  setPreBodyComponents([
-    <script
-      key="dataLayer"
-      dangerouslySetInnerHTML={{
-        __html: `
-          window.dataLayer = window.dataLayer || [];
-        `,
-      }}
-    />,
-  ]);
-};
+// exports.onRenderBody = ({ setPreBodyComponents }) => {
+//   setPreBodyComponents([
+//     <script
+//       key="dataLayer"
+//       dangerouslySetInnerHTML={{
+//         __html: `
+//           window.dataLayer = window.dataLayer || [];
+//            //function gtag(){dataLayer.push(arguments);}
+//           //gtag('js', new Date());
+          
+//           //gtag('config', 'YOUR_GOOGLE_ANALYTICS_MEASUREMENT_ID');
+//         `,
+//       }}
+//     />,
+//   ]);
+// };
