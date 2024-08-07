@@ -186,6 +186,13 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://nerdanalytics.com.br`, // Substitua pelo seu domínio
+        stripQueryString: true, // Se deseja remover parâmetros de busca da URL canônica
+      },
+    },
+    {
       resolve: `gatsby-plugin-disqus`,
       options: {
         shortname: `analytics-nerd`

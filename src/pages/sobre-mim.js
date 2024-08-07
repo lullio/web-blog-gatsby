@@ -79,7 +79,7 @@ const AboutPage = () => (
                 <strong>Tomar Decisões Baseadas em Dados:</strong> Ao invés de confiar apenas na intuição, baseie suas decisões em dados concretos, aumentando a eficácia das suas estratégias de marketing e desenvolvimento.
                 </li>
                 <li>
-                <strong>Monitorar o Desempenho em Tempo Real::</strong> Acompanhe métricas importantes em tempo real, permitindo que você responda rapidamente a mudanças e tendências.
+                <strong>Monitorar o Desempenho em Tempo Real:</strong> Acompanhe métricas importantes em tempo real, permitindo que você responda rapidamente a mudanças e tendências.
                 </li>
               </ol>
               </p>

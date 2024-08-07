@@ -28,8 +28,7 @@ A estrutura do GTM segue uma hierarquia clara, composta por três níveis princi
 - **Limite**: Uma conta GTM pode ter até **500 containers**. O tamanho máximo de um container é **200KB**. Quanto mais tags, triggers e variáveis você adicionar, maior será o tamanho do container e consequentemente o carregamento dele. Quando você atingir 70% do tamanho limite de 200KB, o GTM colocará um aviso no topo da página.
 
 ### 3. Tags
-- **O que é**: As tags são fragmentos de código que coletam dados e os enviam para ferramentas como GA4, Meta, Amplitude, etc.
-- O container serve para armazenar todo o rastreamento, ou seja, todas as suas tags, uma tag representa um fragmento de código que coleta dados e os envia para uma ferramenta(ex: GA4, Meta, Amplitude, etc)
+- **O que é**: As tags são os rastreamentos que você deseja realizar, são fragmentos de código que coletam dados e os enviam para ferramentas como GA4, Meta, Amplitude, etc.
 - **Exemplos de tags**:
   - Pixel de conversão do Facebook
   - Tag para rastreamento de visualização de página do Google Analytics 4
@@ -40,7 +39,7 @@ A estrutura do GTM segue uma hierarquia clara, composta por três níveis princi
 
 Para que uma tag seja disparada no momento certo e com os dados corretos, são necessários dois componentes adicionais:
 
-**Triggers**
+**Acionadores ou Triggers**
 
 - **O que é**: Definem as condições em que uma tag será disparada.
 - **Exemplo de triggers**:
@@ -49,7 +48,7 @@ Para que uma tag seja disparada no momento certo e com os dados corretos, são n
   - Tempo decorrido na página
   - Rolagem de página(scroll)
 
-**Variables** 
+**Variáveis ou Variables** 
 
 - **O que é**: Armazenam valores dinâmicos que podem ser utilizados nas tags e triggers.
 - **Exemplo de variáveis**:

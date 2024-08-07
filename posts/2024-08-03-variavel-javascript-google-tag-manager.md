@@ -33,7 +33,7 @@ Um exemplo prático dessa diferença surge quando a variável incorporada do GTM
 </button>
 ```
 
-No caso do clique ocorrer na imagem do botão, pode ser que a variável "Click Text" do GTM retorne uma string vazia ou `undefined`. Para resolver isso, poderíamos usar criar uma variável "JavaScript Personalizado" com o seguinte código:
+No caso do clique ocorrer na imagem do botão, pode ser que a variável "Click Text" do GTM retorne uma string vazia ou `undefined`. Para resolver isso, poderíamos criar uma variável "JavaScript Personalizado" com o seguinte código:
 
 ```js
 function() {
@@ -91,9 +91,9 @@ Se você não encontrar nada nas variáveis globais, há uma boa chance de que v
 ## Testando sua Variável JavaScript no GTM
 Depois de criar a variável JavaScript é hora de testê-lá. 
 1. **Ative o Modo de Visualização**: No canto superior direito do GTM, clique no botão "Visualizar" (ou "Preview" se o idioma da sua conta Google for inglês).
-   1. ![Botão Preview do GTM](/assets/img/gtm/gtm-variavel-javascript-transformar-texto.png)
+   1. ![Botão Preview do GTM](/assets/img/gtm/gtm-preview-changes.png)
 2. **Conecte-se ao seu Site**: Insira a URL do seu site e clique em "Conectar" (ou "Connect").
-   1. ![Modo Preview/Visualizar do GTM](/assets/img/gtm/gtm-variavel-javascript-transformar-texto.png)
+   1. ![Modo Preview/Visualizar do GTM](/assets/img/gtm/gtm-connect-preview.png)
 3. **Selecione um Evento**: Após o carregamento do site, volte para a aba do navegador do "Tag Assistant" e selecione um evento na lista à esquerda.
    1. ![Eventos modo Preview do GTM](/assets/img/gtm/gtm-preview-mode-events.png)
 4. **Acesse a Aba de Variáveis**: Clique na aba "Variáveis" (ou "Variables")
@@ -176,7 +176,7 @@ Para te ajudar a aproveitar ao máximo a variável JavaScript no GTM, confira al
 - `window.scrollY` - Posição vertical do scroll.
 
 ### Histórico do Navegador
-- history.length - Número de entradas no histórico.
+- `history.length` - Número de entradas no histórico.
 
 ### Redes
 - `navigator.connection.effectiveType` - Tipo de conexão de rede (4g, 3g, etc).
