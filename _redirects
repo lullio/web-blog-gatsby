@@ -1,0 +1,10 @@
+# Redireciona todo o tráfego de lullio.netlify.app para analyticsnerd.com.br
+https://lullio.netlify.app/* https://analyticsnerd.com.br/:splat 301!
+https://analyticsnerd.com.br/* https://nerdanalytics.com.br/:splat 301!
+# /*    analyticsnerd.com.br/:splat    301!
+
+# Redireciona http para https (se necessário)
+http://nerdanalytics.com.br/* https://nerdanalytics.com.br/:splat 301!
+
+# Redireciona todo o tráfego de blog.lullio.com.br para nerdanalytics.com.br
+https://blog.lullio.com.br/* https://nerdanalytics.com.br/:splat 301!
