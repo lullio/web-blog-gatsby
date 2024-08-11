@@ -6,7 +6,7 @@ import Project from '../components/Project'
 
 const projectsList = [
   {
-    title: 'Blog Analytics (Este blog)',
+    title: 'Blog Nerd Analytics(Este blog)',
     link: 'https://projetos.lullio.com.br/blog-analytics',
     description: 'Desenvolvi este blog com as seguintes tecnologias: React, Gatsby, GraphQL, Styled Components, Algolia, Netlify, Decap CMS(aka NetlifyCMS).'
   },

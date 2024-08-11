@@ -2,7 +2,7 @@ backend:
   name: github
   repo: lullio/web-blog-gatsby
   branch: main
-  site_domain: blog.lullio.com.br
+  site_domain: nerdanalytics.com.br
 
 publish_mode: editorial_workflow
 media_folder: "static/assets/img"

@@ -6,7 +6,7 @@ import { Disqus, CommentCount } from 'gatsby-plugin-disqus'
 import * as S from "./styled"
 
 const Comments = ({ url, title }) => {
-  const completeURL = `https://blog.lullio.com.br${url}`
+  const completeURL = `https://nerdanalytics.com.br${url}`
   const disqusConfig = {
     url: completeURL,
     identifier: url, // ou algum identificador único que você queira usar para cada post

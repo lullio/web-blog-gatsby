@@ -3,11 +3,11 @@ const queries = require('./src/utils/algolia_queries')
 
 module.exports = {
   siteMetadata: {
-    title: `Felipe Lullio`,
+    title: `Nerd Analytics`,
     position: `Web Analytics`,
     description: `Aprenda sobre Google Analytics 4, Google Tag Manager, Google Looker Studio, Google Apps Script, PowerBI e muito mais. `,
     author: `@felipelullio`,
-    siteUrl: `https://blog.lullio.com.br`,
+    siteUrl: `https://nerdanalytics.com.br`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,
@@ -173,9 +173,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `App Blog Analytics - Felipe Lullio`,
-        short_name: `App Analytics Felipe Lullio`,
-        description: `Blog do Felipe Lullio, aprenda sobre o mundo de web analytics entendendo sobre as ferramentas Google, criação de relatórios, dashboards e análise de dados.`,
+        name: `Nerd Analytics - Tudo sobre Web Analytics`,
+        short_name: `Nerd Analytics`,
+        description: `Nerd Analytics, aprenda sobre o mundo de web analytics entendendo sobre as ferramentas Google, criação de relatórios, dashboards e análise de dados.`,
         start_url: `/`,
         background_color: `#030518`,
         theme_color: `#030518`,
